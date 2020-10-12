@@ -11,6 +11,7 @@ import DemoListAndKeys from './ListAndKeys/DemoListAndKeys';
 import DemoProps from './Props/DemoProps';
 import BaiTapGioHang from './Components/BaiTapGioHang';
 import BaiTapGioHangRedux from './BaiTapRedux/BaiTapGioHangRedux';
+import BaiTapGameXucXac from './BaiTapXucXac';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
         {/* <DemoListAndKeys/> */}
         {/* <DemoProps/> */}
         {/* <BaiTapGioHang/> */}
-        <BaiTapGioHangRedux/>
+        {/* <BaiTapGioHangRedux/> */}
+        <BaiTapGameXucXac/>
     </div>
   );
 }
