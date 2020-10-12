@@ -6,6 +6,12 @@ import DemoStateful from './Components/DemoStateful';
 import BaiTapLayout1 from './Components/BaiTapLayoutComponents/BaiTapLayout1';
 import Databinding from './Databinding/Databinding';
 import HandleEvent from './HandleEvent/HandleEvent';
+import DemoConditionalAndState from './DemoLogin/DemoConditionalAndState';
+import DemoListAndKeys from './ListAndKeys/DemoListAndKeys';
+import DemoProps from './Props/DemoProps';
+import BaiTapGioHang from './Components/BaiTapGioHang';
+import BaiTapGioHangRedux from './BaiTapRedux/BaiTapGioHangRedux';
+
 
 function App() {
   return (
@@ -14,7 +20,13 @@ function App() {
         <DemoStateful/> */}
         {/* <BaiTapLayout1/> */}
         {/* <Databinding/> */}
-        <HandleEvent/>
+        {/* <HandleEvent/> */}
+        {/* <DemoConditionalAndState/> */}
+        {/* <ChonMauXe/> */}
+        {/* <DemoListAndKeys/> */}
+        {/* <DemoProps/> */}
+        {/* <BaiTapGioHang/> */}
+        <BaiTapGioHangRedux/>
     </div>
   );
 }
